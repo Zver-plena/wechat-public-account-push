@@ -18,13 +18,12 @@ export const config = {
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     
     USERS: [
-      {name: test', id: "AR13557501058"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
+      {name: test', id: "o-etc5kV4_LvNFvZ6-ADGNXWhKTM"}, 
      
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "AR13557501058"}, 
+      {name: '自己',id: "o-etc5kV4_LvNFvZ6-ADGNXWhKTM"}, 
     ],
      
     /**
