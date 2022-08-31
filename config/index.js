@@ -10,15 +10,15 @@ export const config = {
     APP_SECRET: "db0e3d8e375e6c9132b7661474939f21",
 
     // 模板消息id
-    TEMPLATE_ID: "0hmwgjJSq1rJBMpGf-F6Y6X2t9HMQAm7ANbuxg6Mb4w",
+    TEMPLATE_ID: "QtIz0tOElXmS-o_fmoWym5IFMwUoHPHi1dbCojC9rD0",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "fKcced0GCvTxtZhSCvqDIe1380IpgZ_cGWoxlCrQc6s",
+    CALLBACK_TEMPLATE_ID: "uPnmA0JCzSrS_pYFJ82oY49GyVUZPtpwMc0KlKpa8R0",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     
     USERS: [
-      {name: 'test', id: "o-etc5kV4_LvNFvZ6-ADGNXWhKTM"}, 
+      {name: '用户1', id: "o-etc5kV4_LvNFvZ6-ADGNXWhKTM"}, 
      
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
