@@ -4,35 +4,26 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wxc8cfd2cda4a1d56c",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "db0e3d8e375e6c9132b7661474939f21",
 
     // 模板消息id
-    TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
+    TEMPLATE_ID: "NTDWLcIZLD2FelATJdCeFdLLTt5VnkgtWmCujsS0Plw",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
+    CALLBACK_TEMPLATE_ID: "ARr_Fi7CB8AOFJMXxApix0W9gr_9OfIzTBXBcrqc7vc",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-    // [{
-    //   name: "张三",
-    //   id: "wxafasdasdd-zxfvsdfd"
-    // },
-    // {
-    //   name: "李四",
-    //   id: "wxafasdasdd-zxfvsdfd"
-    // }]
+ 
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
-      {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      {name: '肥肥', id: "AR13557501058"}, 
     ],
+    
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '',id: "AR13557501058"}, 
     ],
      
     /**
@@ -42,9 +33,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "江苏",
     // 所在城市
-    CITY: "惠州",
+    CITY: "苏州",
 
     /** 重要节日相关 */
 
@@ -80,19 +71,3 @@ export const config = {
 
     }
 
-// {{date.DATA}}  
-// 城市：{{city.DATA}}  
-// 天气：{{weather.DATA}}  
-// 最低气温: {{min_temperature.DATA}}  
-// 最高气温: {{max_temperature.DATA}}  
-// 今天是我们恋爱的第{{love_day.DATA}}天
-// 今天是我们结婚的第{{marry_day.DATA}}天
-// {{birthday_message.DATA}}
-
-// {{note_en.DATA}}  
-// {{note_ch.DATA}}
-
-// 共推送 {{need_post_num.DATA}}  人
-// 成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
-// 成功用户: {{success_post_ids.DATA}}
-// 失败用户: {{fail_post_ids.DATA}}
